@@ -1,0 +1,170 @@
+.navbar-brand {
+    font-style: cursive;
+    font-weight: bold;
+    font-size: 25px;
+    color: #20f700 !important;
+}
+
+.navbar ul a:hover {
+    border-bottom: 3px solid #29f700;
+}
+
+#home {
+    background-image: url(img/nuts1.jpg);
+    width: 100%;
+    height: 100vh;
+    color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.9;
+}
+
+#home h2 {
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    letter-spacing: 2px;
+    text-shadow: 2px -2px red;
+    flex-direction: column;
+}
+
+#home h2:hover {
+    color: steelblue;
+}
+
+#view {
+    text-align: center;
+    background-color: hsl(260, 57%, 64%);
+}
+
+#view h2 {
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: cursive;
+    text-shadow: -3px 3px;
+}
+
+#view h2:hover {
+    color: yellowgreen;
+}
+
+#view img {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+#cart {
+    background-color: #c2c2c2;
+}
+
+.container {
+    margin: 70px;
+}
+
+.container h2 {
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: cursive;
+}
+
+#cart h2:hover {
+    color: forestgreen;
+}
+
+.navbar-forms {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    margin: 10px 0;
+}
+
+div button {
+    margin-top: 15px;
+}
+
+#cart button {
+    margin-bottom: 15px;
+}
+
+#cart img {
+    width: 450px;
+}
+
+#register {
+    background-color: wheat;
+    padding: 5px;
+}
+
+#register h2 {
+    margin-bottom: 20px;
+}
+
+#register h2:hover {
+    color: indianred;
+}
+
+#register img {
+    width: 100%;
+}
+
+#about h2 {
+    text-align: center;
+    color: brown;
+}
+
+#about img {
+    float: left;
+    margin-right: 100px;
+}
+
+#about div p {
+    justify-content: space-evenly;
+    align-content: flex-end;
+    text-align: justify;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+#contact {
+    background-color: darkcyan;
+}
+
+#contact h2:hover {
+    color: gold;
+}
+
+#contact h4 {
+    font-weight: bold;
+}
+
+#contact h3 {
+    font-weight: bolder;
+}
+
+#contact input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin: 15px;
+}
+
+#contact input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    margin: 15px;
+}
+
+#contact textarea {
+    padding: 10px;
+    width: 100%;
+    margin: 15px;
+}
+
+#contact button {
+    margin-bottom: 20px;
+    padding: 10px;
+}
